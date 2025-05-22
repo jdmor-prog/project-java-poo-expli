@@ -12,6 +12,30 @@ public class Neumatico {
         this.tamano = tamano;
         this.presion = presion;
     }
+    
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getTamano() {
+        return tamano;
+    }
+
+    public void setTamano(String tamano) {
+        this.tamano = tamano;
+    }
+
+    public String getPresion() {
+        return presion;
+    }
+
+    public void setPresion(String presion) {
+        this.presion = presion;
+    }
 
     public void displayInfo() {
         System.out.println("Información del Neumático:");

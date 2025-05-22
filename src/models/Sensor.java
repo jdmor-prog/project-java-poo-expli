@@ -16,6 +16,46 @@ public class Sensor {
         this.estadoFrenos = estadoFrenos;
     }
 
+    public String getVelocidad() {
+        return velocidad;
+    }
+
+    public void setVelocidad(String velocidad) {
+        this.velocidad = velocidad;
+    }
+
+    public String getTemperatura() {
+        return temperatura;
+    }
+
+    public void setTemperatura(String temperatura) {
+        this.temperatura = temperatura;
+    }
+
+    public String getPresion() {
+        return presion;
+    }
+
+    public void setPresion(String presion) {
+        this.presion = presion;
+    }
+
+    public String getNivelCombustible() {
+        return nivelCombustible;
+    }
+
+    public void setNivelCombustible(String nivelCombustible) {
+        this.nivelCombustible = nivelCombustible;
+    }
+
+    public String getEstadoFrenos() {
+        return estadoFrenos;
+    }
+
+    public void setEstadoFrenos(String estadoFrenos) {
+        this.estadoFrenos = estadoFrenos;
+    }
+
     public void displayInfo() {
         System.out.println("Información de los Sensores:");
         System.out.println("Velocidad: " + velocidad);

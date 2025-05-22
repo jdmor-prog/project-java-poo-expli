@@ -15,6 +15,38 @@ public class SistemaFrenos {
         this.estado = estado;
     }
 
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public String getDiscos() {
+        return discos;
+    }
+
+    public void setDiscos(String discos) {
+        this.discos = discos;
+    }
+
+    public String getAbs() {
+        return abs;
+    }
+
+    public void setAbs(String abs) {
+        this.abs = abs;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
     public void displayInfo() {
         System.out.println("Información del Sistema de Frenos:");
         System.out.println("Tipo: " + tipo);

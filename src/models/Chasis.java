@@ -13,6 +13,30 @@ public class Chasis {
         this.peso = peso;
     }
 
+    public String getTipoChasis() {
+        return tipoChasis;
+    }
+
+    public void setTipoChasis(String tipoChasis) {
+        this.tipoChasis = tipoChasis;
+    }
+
+    public String getDimensiones() {
+        return dimensiones;
+    }
+
+    public void setDimensiones(String dimensiones) {
+        this.dimensiones = dimensiones;
+    }
+
+    public String getPeso() {
+        return peso;
+    }
+
+    public void setPeso(String peso) {
+        this.peso = peso;
+    }
+
     public void displayInfo() {
         System.out.println("Información del Chasis:");
         System.out.println("Tipo de Chasis: " + tipoChasis);
